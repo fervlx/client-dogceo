@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dogceo-mpp-js-1.0">
+    <output-path>C:\Users\vfern\IdeaProjects\dogceo-mpp\build\libs</output-path>
+    <root id="archive" name="dogceo-mpp-js-1.0.jar" />
+  </artifact>
+</component>

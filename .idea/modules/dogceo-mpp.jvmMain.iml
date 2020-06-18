@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="false" externalProjectId="dogceo-mpp">
+        <dependsOnModuleNames>dogceo-mpp:commonMain</dependsOnModuleNames>
+        <sourceSets>
+          <sourceSet>dogceo-mpp.commonMain~1</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/jvm/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.20.0/38d32d4fa80c8c541e55c939c087a16236bfe239/kotlinx-serialization-runtime-common-0.20.0.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.3.2/d221b9a71c8106275a23d201ed529db1c5044ae9/ktor-client-core-1.3.2.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio/1.3.2/982949625fee985a84e973a66f3305760d3aa041/ktor-http-cio-1.3.2.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.3.2/149853338be0a9c5ec69a0dc93386b9d1d9a01b6/ktor-http-1.3.2.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-apache/1.3.1/e8b15b224546f8a7daad35f4e6e74502ce8b9b4b/ktor-client-apache-1.3.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/1.3.1/90a3dea6db6fce86de922ec9c7878b9224fd4fc0/ktor-client-core-jvm-1.3.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.3.2/3fa5719992d7b0bcef26e554b0b962bf661a1a00/ktor-utils-1.3.2.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.3.1/420522af46d38ebb51f3bb8e117970dd22bab078/ktor-http-cio-jvm-1.3.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.3.1/3fa368aa7dd5cb49259c3b5bb2cb05148faf3576/ktor-http-jvm-1.3.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io/1.3.2/c01d3a024f1818cae6581ca9955eb54ddc5ee059/ktor-io-1.3.2.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network/1.3.1/4b827146980b5c495ff6ea0fd440780e8796e311/ktor-network-1.3.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.3.1/ba1c65ec3fc4bd95c265f3be00af97b083165d7d/ktor-utils-jvm-1.3.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.3.1/aa35547ba58763209ba95bfd9a8245703be98c41/ktor-io-jvm-1.3.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.3.7/76e1a75e804618c9e9e571b797eb9937a97cd1e/kotlinx-coroutines-core-common-1.3.7.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime/0.20.0/fa78723d3114632b1563f0701162dee0d4d8d5ea/kotlinx-serialization-runtime-0.20.0.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.72/916d54b9eb6442b615e6f1488978f551c0674720/kotlin-stdlib-jdk8-1.3.72.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.72/3adfc2f4ea4243e01204be8081fe63bde6b12815/kotlin-stdlib-jdk7-1.3.72.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.72/8032138f12c0180bc4e51fe139d4c52b46db6109/kotlin-stdlib-1.3.72.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.3/5bac48cf5828e9b006f3b1ef6e37d2a70c2e7321/kotlinx-coroutines-core-1.3.3.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.72/6ca8bee3d88957eaaaef077c41c908c9940492d8/kotlin-stdlib-common-1.3.72.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.14.1/e0072a7ad62fbec16d8490fb298da7d76d0ae347/atomicfu-0.14.1.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.26/77100a62c2e6f04b53977b9f541044d7d722693d/slf4j-api-1.7.26.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.1.4/f3a3240681faae3fa46b573a4c7e50cec9db0d86/httpasyncclient-4.1.4.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.4.10/486f90c2af9bb81c51e8fb905647267053d5441/httpcore-nio-4.4.10.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.6/1afe5621985efe90a92d0fbc9be86271efbe796f/httpclient-4.5.6.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.10/acc54d9b28bdffe4bbde89ed2e4a1e86b5285e2b/httpcore-4.4.10.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar;C:/Users/vfern/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="dogceo-mpp" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.72/657d8d34d91e1964b4439378c09933e840bfe8d5/kotlin-script-runtime-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.3.72/e09990437040879d692655d66f58a64318681ffe/kotlin-scripting-common-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.3.72/7dde2c909e6f1b80245c7ca100d32a8646b5666d/kotlin-scripting-jvm-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.72/6ca8bee3d88957eaaaef077c41c908c9940492d8/kotlin-stdlib-common-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.72/8032138f12c0180bc4e51fe139d4c52b46db6109/kotlin-stdlib-1.3.72.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.2.1/3839faf625f4197acaeceeb6da000f011a2acb49/kotlinx-coroutines-core-1.2.1.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
